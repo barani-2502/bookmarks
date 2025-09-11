@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static_root/
+local_settings.py
+
+# Migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# Secret settings
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# mypy, pyright, pytest, coverage
+.mypy_cache/
+.pytest_cache/
+.pyright/
+coverage.xml
+htmlcov/
+.tox/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Node (if using npm for frontend)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
